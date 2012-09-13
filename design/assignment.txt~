@@ -1,0 +1,63 @@
+Assignment - In progress
+Complete the form, then choose the appropriate button at the bottom.
+Title	  Individual Assignment 1
+Due	   Sep 13, 2012 7:00 pm
+Number of resubmissions allowed	 Unlimited
+Accept Resubmission Until	  Sep 14, 2012 7:00 pm
+Status  In progress
+Grade Scale	 Points (max 20.0)
+Instructions
+Part 1 – Getting and Analyzing Data from the Internet – The CIA World Factbook (10 points)
+
+The CIA has an excellent collection of detailed information about each country in the world. It’s called the CIA World Factbook. You can find it here https://www.cia.gov/library/publications/the-world-factbook/
+
+For this assignment, you should write a program in any programming language to get and analyze data from the CIA World Factbook website. You should not download any of the information to a local file and read from it. Your program must interact directly with the website. (This way your programs will work even when the CIA updates the Factbook, which is done every year.)
+
+Once you have a basic program that can interact with CIA World Factbook, use it to answer the following questions. Describe the answers in your readme.txt file.
+
+1.     List countries in South America that are prone to earthquakes.
+
+2.     List countries in Asia with more than 10 political parties.
+
+3.     Find all countries that have the color blue in their flag.
+
+4.     A landlocked country is one that is entirely enclosed by land. For example, Austria is landlocked and shares its borders with Germany, Czech Republic, Hungary, etc. There are certain countries that are entirely landlocked by a single country. Find these countries.
+
+5.     I want to go on a vacation with a friend. Our goal is to visit as many capital cities as we can in as short a geographical distance as possible. To make things easier (and not worry about spherical geometry), we are fine with travelling to capitals that are within 10 degrees of latitude and longitude of each other. Find the lat/long coordinates and the list of countries/capitals so that the number of capitals is maximized.
+
+Note: For the italicized parts in the above, your code should be able to deal with any similar input (e.g., from a user). This should not be hard coded.
+
+Note: This assignment must be done individually.
+
+There is no requirement for how the UI looks – you can choose whatever you want – command line, web page, a graphical UI, etc.
+
+Hint: It might be easier to use the text/low bandwidth version of the website in your program.
+
+Part 2 – Software Engineering (10 points)
+
+The goal of this assignment is not just “get the code working,” but use good programming principles as you go along.
+
+With respect to your code, create a file called se.txt and answer the following questions: Did you use any of the following? If yes, how and what were the advantages and disadvantages of using it? If no, why not (e.g., I don’t know what this is, I know what this is but don’t know how to use it in a project)?
+
+Requirements Engineering
+Formal Design (e.g., UML, CRCs, Design Patterns)
+Software Process (e.g., Waterfall, Agile)
+Software Testing (e.g., Black Box, White Box, Acceptance Testing)
+Software Quality Assurance (e.g., Code Inspection, Refactoring)
+Software Component Models (e.g., External Libraries, EJB, Web Services)
+Software Tools (e.g., IDEs, Version Control Systems, Bug Repositories)
+In general, you are not expected to use all of these. Try to use what you can or what you know how to use.
+
+Grading Criteria
+
+The grading for this assignment will be Pass/Fail.
+
+If you submit code that works and answers the questions (more or less), you get a Pass for Part 1. If you describe your answers to Part 2 (regardless of whether they are a yes or a no), you get a Pass for Part 2.
+
+If you pass both parts, you will get a Pass for the assignment. This will give you 20 points, which will contribute to 2% of your (individual) grade.
+
+Submission Instructions
+
+The code should be submitted electronically. Please do not print it out.
+
+In addition to the source code (and the se.txt file), you should also submit a text file titled readme.txt, which should contain a short write-up about your software. How to run your program, any problems you experienced, etc. Think of the readme as 
