@@ -12,7 +12,7 @@ The design directory contains design documents and planning for the application.
 
 APPROACH:
 
-The language of choice for this project is Python because the project requirements allow me to greatly value speed of development over speed of execution.
+The language of choice for this project is Python because the project requirements allow me to prioritize speed of development over speed of execution.
 
 The software engineering approach taken for this project is a hybrid between the waterfall model, where everything is planned out from the start before being coded, and the agile development model, where the software is incrementally revised and the general plan modified according to issues/realizations that come up.
 
@@ -20,7 +20,7 @@ Used the BeautifulSoup library to access DOM elements and look through factbook 
 
 Used Python's standard library urllib module to fetch data from factbook urls.
 
-The program does require that you know roughly what you're looking for. (e.g. that the continent a country is in will be listed under it's location description, if it's landlocked that will be listed under coastline, etc.) The advantage of this approach is that you can query just about any attribute/value pair you can think of (flexible!)
+The program does require that you know roughly what you're looking for. (e.g. that the continent a country is in will be listed under it's location description, if it's landlocked that will be listed under coastline, etc.) The advantage of this approach is that you can query just about any attribute/value pair you can think of (flexible)
 
 
 
@@ -28,7 +28,7 @@ ASSIGNED QUERIES & RESULTS:
 
 General Notes:
 - fetching data from the urls is a performance bottleneck in this application.
-- One thing I noticed from running compound queries is that it probably would have been better to organize my system around a single fetch of data that happens at the start of a command, and then reuse that information for each refiner...
+- One thing I noticed from running compound queries is that it probably would have been better to organize my system around a single fetch of data that happens at the start of a command, and then reuse that information for each refiner... But requirements stated that we can't cache data, needs to be fetched anew every time.
 
 1.     List countries in South America that are prone to earthquakes.
 
